@@ -32,5 +32,8 @@ export const minikitConfig = {
     ogDescription: "",
     ogImageUrl: `${ROOT_URL}/blue-hero.png`,
   },
+  baseBuilder: {
+    allowedAddresses: ["0xBC929124B8f96310BB30853C80Eea322ADe08107"]
+  }
 } as const;
 
